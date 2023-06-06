@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"nhungcuoiki_v3\startup_stm32f103xb.o"
+"nhungcuoiki_v3\i2c-lcd.o"
+"nhungcuoiki_v3\main.o"
+"nhungcuoiki_v3\stm32f1xx_it.o"
+"nhungcuoiki_v3\stm32f1xx_hal_msp.o"
+"nhungcuoiki_v3\stm32f1xx_hal_gpio_ex.o"
+"nhungcuoiki_v3\stm32f1xx_hal_i2c.o"
+"nhungcuoiki_v3\stm32f1xx_hal.o"
+"nhungcuoiki_v3\stm32f1xx_hal_rcc.o"
+"nhungcuoiki_v3\stm32f1xx_hal_rcc_ex.o"
+"nhungcuoiki_v3\stm32f1xx_hal_gpio.o"
+"nhungcuoiki_v3\stm32f1xx_hal_dma.o"
+"nhungcuoiki_v3\stm32f1xx_hal_cortex.o"
+"nhungcuoiki_v3\stm32f1xx_hal_pwr.o"
+"nhungcuoiki_v3\stm32f1xx_hal_flash.o"
+"nhungcuoiki_v3\stm32f1xx_hal_flash_ex.o"
+"nhungcuoiki_v3\stm32f1xx_hal_exti.o"
+"nhungcuoiki_v3\stm32f1xx_hal_tim.o"
+"nhungcuoiki_v3\stm32f1xx_hal_tim_ex.o"
+"nhungcuoiki_v3\system_stm32f1xx.o"
+--strict --scatter "nhungcuoiki_v3\nhungcuoiki_v3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "nhungcuoiki_v3.map" -o nhungcuoiki_v3\nhungcuoiki_v3.axf
