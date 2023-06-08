@@ -10,6 +10,6 @@ Made by Tran Ngoc Tuan(20020320) and Nguyen Long Nhat(20020173).
   
   + Nguyen Long Nhat: lcd-i2c, display on LCD, LED blinking using timer, report
 
-Sensor interfacing possible thanks to https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
+Sensor's registers: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
 
 This repo is maintained by Tran Ngoc Tuan.
