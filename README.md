@@ -1,5 +1,5 @@
 # GrNo.23-Pedometer
-End-of-Semester Submission
+
 
 Main code is located in Core/Src/main.c
 
